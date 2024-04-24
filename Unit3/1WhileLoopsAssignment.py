@@ -1,4 +1,6 @@
 # ========== 3.1.1 ==========
+print("Are you ready?")
+number= int(input("Please type in a number "))
 
 
 # ========== 3.1.2 ==========
