@@ -31,7 +31,7 @@
 # def print_many_times(text, times):
 #    counter=0
 #    while True:
-#       counter=counter+1
+#       counter=counteprinr+1
 #       print (text)
 #       if counter==times:
 #         break

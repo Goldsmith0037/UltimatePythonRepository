@@ -1,11 +1,11 @@
 # ========== 3.3.1 ==========
-string=input("Please type in a string:")
-endpos = 1
-while True:
-    print(string[:endpos])
-    endpos=endpos +  1
-    if len(string) + 1  == endpos:
-        break
+# string=input("Please type in a string:")
+# endpos = 1
+# while True:
+#     print(string[:endpos])
+#     endpos=endpos +  1
+#     if len(string) + 1  == endpos:
+#         break
 # ========== 3.3.2 ==========
 string=input("Please type in a string: ")
 startpos=len(string) - 1
@@ -31,27 +31,27 @@ else:
     print ("o not found")
 
 # ========== 3.3.4 ==========
-word=input("please type in a word: ")
-letter = input("Please type in a character")
-foundpos= word.find(letter)
-print(word[foundpos: foundpos + 3])
-# ========== 3.3.5 ==========
-word=("Please type in a word")
-letter=("Please type in a character")
-foundpos=word.find(letter)
-print(word[foundpos:foundpos + 3])
+# word=input("please type in a word: ")
+# letter = input("Please type in a character")
+# foundpos= word.find(letter)
+# print(word[foundpos: foundpos + 3])
+# # ========== 3.3.5 ==========
+# word=("Please type in a word")
+# letter=("Please type in a character")
+# foundpos=word.find(letter)
+# print(word[foundpos:foundpos + 3])
 # ========== 3.3.6 ==========
-string=input("Please type in a string: ")
-substring=input("Please type in a substring ")
-if string.find(substring) <0:
-    print("The substring does not occur in the string")
-else:
-    remaining= string[string.find(substring) + 1:len(string)]
-    first=string.find(substring)
-    if remaining.FIND(substring) < 0:
-        print("The substring does not occur twice in the string.")
-    else:
-        second=remaining.find(substring)
-        index= first + second + 1
-        print("The second occurence of the substring is at index", index)
+# string=input("Please type in a string: ")
+# substring=input("Please type in a substring ")
+# if string.find(substring) <0:
+#     print("The substring does not occur in the string")
+# else:
+#     remaining= string[string.find(substring) + 1:len(string)]
+#     first=string.find(substring)
+#     if remaining.FIND(substring) < 0:
+#         print("The substring does not occur twice in the string.")
+#     else:
+#         second=remaining.find(substring)
+#         index= first + second + 1
+#         print("The second occurence of the substring is at index", index)
 
